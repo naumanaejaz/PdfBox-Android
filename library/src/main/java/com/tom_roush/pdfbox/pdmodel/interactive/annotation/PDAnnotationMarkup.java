@@ -24,6 +24,7 @@ import com.tom_roush.pdfbox.cos.COSDictionary;
 import com.tom_roush.pdfbox.cos.COSName;
 import com.tom_roush.pdfbox.cos.COSStream;
 import com.tom_roush.pdfbox.cos.COSString;
+import com.tom_roush.pdfbox.pdmodel.PDDocument;
 
 /**
  * This class represents the additonal fields of a Markup type Annotation. See
@@ -371,4 +372,11 @@ public class PDAnnotationMarkup extends PDAnnotation
         return null;
     }
 
+    public void constructAppearances() {
+
+    }
+
+    public void constructAppearances(PDDocument document) {
+
+    }
 }
