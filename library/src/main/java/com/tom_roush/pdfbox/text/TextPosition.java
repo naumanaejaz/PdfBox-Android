@@ -683,4 +683,12 @@ public final class TextPosition
     {
         return getUnicode();
     }
+
+    public float getPageHeight() {
+        return pageHeight;
+    }
+
+    public float getPageWidth() {
+        return pageWidth;
+    }
 }
