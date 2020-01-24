@@ -691,4 +691,24 @@ public final class TextPosition
     public float getPageWidth() {
         return pageWidth;
     }
+
+    public float getEndX() {
+        return endX;
+    }
+
+    public float getEndY() {
+        return endY;
+    }
+
+    public float getMaxHeight() {
+        return maxHeight;
+    }
+
+    public int getRotation() {
+        return rotation;
+    }
+
+    public float getDirection() {
+        return direction;
+    }
 }
